@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S1</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Test Cases</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C1</id>
+				<title>Button 1 test, changing colors (passed)</title>
+												<template>Test Case (Text)</template>
+																<type>Acceptance</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website http://antivariantum.com/lesson9.html, cache is cleared</preconds>
+										<steps>Press the button 1</steps>
+										<expected>The button randomly changes color
+
+</expected>
+									</custom>
+							</case>
+															<case>
+				<id>C2</id>
+				<title>Button 2 test, changing colors (failed)</title>
+												<template>Test Case (Text)</template>
+																<type>Acceptance</type>
+																<priority>Low</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website http://antivariantum.com/lesson9.html, cache is cleared</preconds>
+										<steps>Press the button 2</steps>
+										<expected>the button randomly changes color 
+
+</expected>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
