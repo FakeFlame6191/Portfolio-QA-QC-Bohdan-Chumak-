@@ -1,0 +1,46 @@
+1. URL: https://www.youtube.com/api/stats/watchtime?ns=yt&el=detailpage&cpn=cAo8JfMS6vJqU7NP&ver=2&cmt=3.692&fmt=398&fs=0&rt=20.001&euri&lact=7143&cl=564805759&state=paused&volume=100&cbr=Chrome&cbrver=117.0.0.0&c=WEB&cver=2.20230914.04.00&cplayer=UNIPLAYER&cos=Windows&cosver=10.0&cplatform=DESKTOP&hl=en_US&cr=UA&len=1500.341&feature=g-high-rec&afmt=251&idpj=-1&ldpj=-27&rti=20&st=3.692&et=3.692&muted=0&docid=a6BbDWIinSM&ei=hkwJZfH2DpSZ0u8P16aM4Ao&plid=AAYFsSPr-lLB8bU8&referrer=https%3A%2F%2Fwww.youtube.com%2F&sdetail=p%3A%2F&sourceid=y&of=xHyaswVlL6hsF8zEEIt_Og&vm=CAEQARgEOjJBQWpSVTZrZXVsNk1IWWVac1JnNml5VWhZcXBoZjhmWFJXYng3bnhRb2kyeGFyNjFwUWJTQVBta0tESXlVejVsNVNXbXdSSHR1WVNpeG5PVEdHbTRadmtQX01GdUh4Qzg4akRHZFBzZV9PTTIwNmJ0Nzljb1pnUTZHY1VXZnN5aXVfY3VhcVVoAQ
+
+2. Parameters: ns: yt
+el: detailpage
+cpn: cAo8JfMS6vJqU7NP
+ver: 2
+cmt: 3.692
+fmt: 398
+fs: 0
+rt: 20.001
+euri: 
+lact: 7143
+cl: 564805759
+state: paused
+volume: 100
+cbr: Chrome
+cbrver: 117.0.0.0
+c: WEB
+cver: 2.20230914.04.00
+cplayer: UNIPLAYER
+cos: Windows
+cosver: 10.0
+cplatform: DESKTOP
+hl: en_US
+cr: UA
+len: 1500.341
+feature: g-high-rec
+afmt: 251
+idpj: -1
+ldpj: -27
+rti: 20
+st: 3.692
+et: 3.692
+muted: 0
+docid: a6BbDWIinSM
+ei: hkwJZfH2DpSZ0u8P16aM4Ao
+plid: AAYFsSPr-lLB8bU8
+referrer: https://www.youtube.com/
+sdetail: p:/
+sourceid: y
+of: xHyaswVlL6hsF8zEEIt_Og
+vm: CAEQARgEOjJBQWpSVTZrZXVsNk1IWWVac1JnNml5VWhZcXBoZjhmWFJXYng3bnhRb2kyeGFyNjFwUWJTQVBta0tESXlVejVsNVNXbXdSSHR1WVNpeG5PVEdHbTRadmtQX01GdUh4Qzg4akRHZFBzZV9PTTIwNmJ0Nzljb1pnUTZHY1VXZnN5aXVfY3VhcVVoAQ
+
+3. Mime type: text/html; charset=UTF-8
+
+4. Cache-Control: no-cache, must-revalidate
