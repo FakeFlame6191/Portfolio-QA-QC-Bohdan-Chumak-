@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S2</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Filter</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C3</id>
+				<title>Сheck the filter headers</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website https://rozetka.com.ua/ua/
+The site must have 10+ products in the category &quot;Ігрові ноутбуки&quot;
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Click on a category &quot;Товари для геймерів&quot;
+
+ ![](index.php?/attachments/get/7cb81507-cecf-4b97-8bf6-2b28d6a1acdd) 
+</content><expected>A page with subcategories has opened
+
+ ![](index.php?/attachments/get/3347cc0d-d70a-4df4-a283-bae84f6c3297) 
+</expected></step>
+<step>
+<index>2</index><content>Select &quot;Ігрові ноутбуки&quot;
+
+ ![](index.php?/attachments/get/d80066cd-465d-4622-81e5-0e54fcbc1dfd)
+</content><expected>A page with subcategories has opened
+
+
+ ![](index.php?/attachments/get/73ad99de-b575-44f1-8aa6-0a71ea1a9208) </expected></step>
+<step>
+<index>3</index><content>Сheck the filter headers</content><expected>On the left side, in the filters section, there should be the following headings:
+Продавець
+Бренд
+Ціна
+Готовність до відправлення
+Процессор
+Діагональ екрана
+Обсяг оперативної пам&apos;яті
+Серія дискретної відеокарти
+Тип накопичувача
+Операційна система
+Тип SSD
+Кількість ядер процесора
+Обсяг пам&apos;яті відеокарти
+Тип екрана
+Роздільна здатність
+Покоління процесора
+Додатково
+Вага
+Колір
+Об&apos;єм HDD
+Покриття екрана
+Кількість слотів для оперативної пам&apos;яті
+Тип оперативної пам&apos;яті
+Ємність акумулятора
+Країна виробник
+Клас
+Товар з акціями
+Новий чи б/в
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C4</id>
+				<title>Check filtering by seller</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website https://rozetka.com.ua/ua/
+Open the category &quot;Ігрові ноутбуки&quot;
+The site must have 10+ products in the category &quot;Ігрові ноутбуки&quot;</preconds>
+										<steps_separated><step>
+<index>1</index><content>In the left filter panel, check the box for the &quot;Rozetka&quot; seller
+
+ ![](index.php?/attachments/get/beab4125-1e86-4eb3-8925-1ca9d8a9c29f) 
+</content><expected>A filter with a seller &quot;Rozetka&quot; is selected
+Products are filtered
+
+ ![](index.php?/attachments/get/21c8e624-a4c1-4b9c-9335-f7a560069a97) 
+</expected></step>
+<step>
+<index>2</index><content>Open the first laptop filtered by seller
+
+ ![](index.php?/attachments/get/bfe828af-5d08-4089-9d67-e69fa6aec866) 
+</content><expected>A page with a product description has opened
+
+ ![](index.php?/attachments/get/fb1df21d-7c8b-4240-81d0-6c1fd6c7059c) 
+</expected></step>
+<step>
+<index>3</index><content>Check if the seller is &quot;Rozetka&quot;</content><expected>The seller must be indicated to the right of the product image
+
+ ![](index.php?/attachments/get/ef836aa2-dbfa-43e1-b7ef-c293f627a0e3) 
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C5</id>
+				<title>Filter by price - positive test</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website https://rozetka.com.ua/ua/
+Open the category &quot;Ігрові ноутбуки&quot;
+The site must have 10+ products in the category &quot;Ігрові ноутбуки&quot;</preconds>
+										<steps_separated><step>
+<index>1</index><content>In the first text box for the minimum price, enter 1</content><expected> ![](index.php?/attachments/get/1371f4a6-7057-46c7-9645-1eae9f66eea2) </expected></step>
+<step>
+<index>2</index><content>In the second text box for the maximum price, enter 10 000</content><expected> ![](index.php?/attachments/get/33206ee1-3bed-4806-a67a-34af1f88c93d) </expected></step>
+<step>
+<index>3</index><content>Press OK</content><expected>Filter is applied</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C6</id>
+				<title>Filter by price - negative test</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website https://rozetka.com.ua/ua/
+Open the category &quot;Ігрові ноутбуки&quot;
+The site must have 10+ products in the category &quot;Ігрові ноутбуки&quot;</preconds>
+										<steps_separated><step>
+<index>1</index><content>In the first text box for the minimum price, enter &quot;a&quot;</content><expected>Text boxes must be red, the button &quot;OK&quot; is disabled
+
+ ![](index.php?/attachments/get/7567010d-6d04-4853-aedc-3e9669d72218) </expected></step>
+<step>
+<index>2</index><content>In the second text box for the maximum price, enter &quot;b&quot;</content><expected>Text boxes must be red, the button &quot;OK&quot; is disabled
+
+ ![](index.php?/attachments/get/23a8af1c-ca3c-472c-8a3c-8e0066cac3bb) 
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+															<case>
+				<id>C7</id>
+				<title>Filter by price  with slider</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																				<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Open website https://rozetka.com.ua/ua/
+Open the category &quot;Ігрові ноутбуки&quot;
+The site must have 10+ products in the category &quot;Ігрові ноутбуки&quot;</preconds>
+										<steps_separated><step>
+<index>1</index><content>Move the first point of the slider &quot;Ціна&quot; to the price 38068
+
+  
+</content><expected>  ![](index.php?/attachments/get/897e0592-ca87-43fc-8dda-4fdd317d1751)</expected></step>
+<step>
+<index>2</index><content>Move the second point of the slider &quot;Ціна&quot; to the price 188163
+
+  
+
+</content><expected>   ![](index.php?/attachments/get/d6be3f67-68f4-44a8-bab4-f9f055b39677) </expected></step>
+<step>
+<index>3</index><content>Press &quot;OK&quot;
+
+ ![](index.php?/attachments/get/4fc15ac6-3451-4e09-8612-019859630bda)
+</content><expected> The filter must be applied
+
+ ![](index.php?/attachments/get/ae947981-20d2-4c48-b3e9-0d46ebb5881b) 
+</expected></step>
+</steps_separated>
+									</custom>
+							</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
